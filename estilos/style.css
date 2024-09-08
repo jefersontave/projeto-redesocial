@@ -23,8 +23,8 @@ main{
 }
 
 section#telefone{
-    width: 311px;
-    height: 627px;
+    width: 250px;
+    height: 500px;
 
     position: absolute;
     top: 50%;
@@ -32,15 +32,16 @@ section#telefone{
     transform: translate(-50%, -50%);
 
     background: url('../imagens/frame-iphone.png') no-repeat;
+    background-size: 250px;
 }
 
 iframe#tela{
     position: relative;
-    top:79px;
-    left: 22px;
+    top:64px;
+    left: 18px;
 
-    width: 265px;
-    height: 470px;
+    width: 213px;
+    height: 377px;
 }
 
 section#redes-sociais img {
